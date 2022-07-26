@@ -1,5 +1,5 @@
 FROM python:3.8-alpine3.15
-ADD ./code
+COPY COPY requirements.txt reuirements.txt
 WORKDIR /code
 RUN pip install -r requiements.txt
 RUN  pip install flask
